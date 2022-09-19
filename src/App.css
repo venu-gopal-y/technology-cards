@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.card-container {
+  background-color: #f4faff;
+  text-align: center;
+  padding: 12px;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 600;
+}
+
+.main-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: small;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+}
